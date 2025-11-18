@@ -1,0 +1,122 @@
+/* --- ESTILO GERAL --- */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #fad49b;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: #c4bebe9a;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0px 5px 18px rgba(0, 0, 0, 0.15);
+}
+
+/* --- TÍTULO --- */
+h1 {
+    text-align: center;
+    color: #d35900;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+/* --- BOTÕES --- */
+.btn {
+    display: inline-block;
+    padding: 12px 18px;
+    background: #ff7a00;
+    color: white;
+    font-weight: 600;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.25s;
+}
+
+.btn:hover {
+    background: #d65f00;
+}
+
+/* Botão perigoso */
+.btn-danger {
+    background: #d9534f;
+}
+
+.btn-danger:hover {
+    background: #b43f3b;
+}
+
+/* Botão voltar */
+.btn-back {
+    background: #7a7a7a;
+}
+
+.btn-back:hover {
+    background: #5a5a5a;
+}
+
+/* --- TABELA --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+}
+
+table th {
+    background: #ff7a00;
+    color: white;
+    padding: 12px;
+    font-size: 15px;
+}
+
+table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table tr:hover {
+    background: #fff6e9;
+}
+
+/* --- FORMULÁRIO --- */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    background: #ff7a00;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+button:hover {
+    background: #d65f00;
+}
+
+/* Mensagens */
+.message {
+    background: #fff6e5;
+    padding: 12px;
+    border-left: 5px solid #ff7a00;
+    border-radius: 6px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #a54b00;
+}
