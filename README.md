@@ -3,7 +3,7 @@
 Um sistema simples em PHP + MySQL, desenvolvido para demonstrar as operações fundamentais de um CRUD: Create, Read, Update e Delete.
 Ideal para estudos e projetos acadêmicos.
 
-Funcionalidades
+Funcionalidades<br>
 Cadastrar Produto
 Formulário com nome, descrição e preço
 Inserção no banco de dados usando INSERT
