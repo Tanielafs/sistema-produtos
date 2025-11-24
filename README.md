@@ -1,4 +1,4 @@
-<b>Sistema de Gerenciamento de Produtos<b>
+<b>Sistema de Gerenciamento de Produtos</b>
 
 Um sistema simples em PHP + MySQL, desenvolvido para demonstrar as operações fundamentais de um CRUD: Create, Read, Update e Delete.
 Ideal para estudos e projetos acadêmicos.
