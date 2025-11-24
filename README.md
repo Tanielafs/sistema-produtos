@@ -8,20 +8,19 @@ Cadastrar Produto
 Formulário com nome, descrição e preço
 Inserção no banco de dados usando INSERT
 
-Listar Produtos
+Listar Produtos<br>
 Exibição de todos os produtos cadastrados
 Botões de editar e excluir na tabela
 
-Editar Produto
+Editar Produto<br>
 Formulário pré-preenchido
 Atualização via UPDATE
 
-Excluir Produto
+Excluir Produto<br>
 Remoção do produto via DELETE
 Confirmação antes de excluir (se você quiser adicionar depois)
 
-Tecnologias Utilizadas
-Tecnologia	Uso
+Tecnologias Utilizadas<br>
 PHP	Lógica backend e comunicação com MySQL
 MySQL	Banco de dados da aplicação
 HTML	Estrutura das páginas
@@ -32,7 +31,7 @@ Crie o banco com o nome:
 produtos_db
 
 
-Tabela:
+Tabela:<br>
 CREATE TABLE produtos (
     id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(255) NOT NULL,
@@ -40,7 +39,7 @@ CREATE TABLE produtos (
     preco DECIMAL(10,2) NOT NULL
 );
 
-Estrutura de Pastas
+Estrutura de Pastas<br>
 /produtos
 │── index.php          -> Lista de produtos
 │── add.php            -> Formulário de cadastro
@@ -49,9 +48,9 @@ Estrutura de Pastas
 │── db.php             -> Conexão com MySQL
 │── style.css          -> Estilo do sistema
 
-Como Rodar o Projeto
+Como Rodar o Projeto<br>
 
-Instale o XAMPP
+Instale o XAMPP<br>
 Coloque a pasta produtos dentro de:
 
 C:\xampp\htdocs\
@@ -62,14 +61,14 @@ Acesse no navegador:
 
 http://localhost/produtos
 
-Layout e Estilo
+Layout e Estilo<br>
 
 O projeto utiliza um tema:
 Laranja moderno
 Branco clean
 Detalhes em preto para contraste
 
-Os botões possuem:
+Os botões possuem:<br>
 efeito hover
 cantos arredondados
 espaçamento responsivo
