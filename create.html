@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Cadastrar Produto</title>
+</head>
+<body>
+
+<div class="container">
+
+<h1>Cadastrar Produto</h1>
+
+<form id="form-create">
+    <input type="text" name="nome" placeholder="Nome do produto" required>
+    <textarea name="descricao" placeholder="Descrição"></textarea>
+    <input type="text" name="preco" placeholder="Preço" required>
+    <button type="submit">Salvar</button>
+</form>
+
+<p id="msg" class="message" style="display:none;">Produto cadastrado com sucesso!</p>
+<br>
+<a class="btn btn-back" href="index.html">Voltar ao início</a>
+
+</div>
+
+<script>
+document.getElementById("form-create").addEventListener("submit", function(e){
+    e.preventDefault();
+    document.getElementById("msg").style.display = "block";
+});
+</script>
+
+</body>
+</html>

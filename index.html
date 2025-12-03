@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lista de Produtos</title>
+</head>
+<body>
+
+<div class="container">
+<h1>Lista de Produtos</h1>
+<a class="btn" href="create.html">Cadastrar Produto</a>
+
+<table id="tabela-produtos">
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Preço</th>
+        <th>Ações</th>
+    </tr>
+</table>
+
+</div>
+
+<script src="js/mock.js"></script>
+<script>
+const tabela = document.getElementById("tabela-produtos");
+
+produtos.forEach(p => {
+    tabela.innerHTML += `
+        <tr>
+            <td>${p.id}</td>
+            <td>${p.nome}</td>
+            <td>R$ ${p.preco}</td>
+            <td>
+                <a class='btn' href='edit.html?id=${p.id}'>Editar</a>
+                <a class='btn btn-danger' href='#' onclick="alert('Versão estática: exclusão não disponível');">Excluir</a>
+            </td>
+        </tr>
+    `;
+});
+</script>
+
+</body>
+</html>
